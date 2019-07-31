@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="jcp">
+      <UniqueIdentifier>{029b0ca2-d6aa-46aa-95e0-c2a63e7e8735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jcp\internal">
+      <UniqueIdentifier>{201601f7-a7e3-455f-8871-d46968fe5b32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jcp\mbedcrypto">
+      <UniqueIdentifier>{1fdd3b07-b363-4e36-8d48-7062a8bfbbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="jcp\openssl">
+      <UniqueIdentifier>{88fb419f-28c2-4b04-a848-0acf74c87344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asymsecurefile">
+      <UniqueIdentifier>{97b14953-d866-4121-b899-5580850b4c42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asymsecurefile\internal">
+      <UniqueIdentifier>{bab9a26b-26f9-4d33-9c6e-77d9ba824383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asymsecurefile\internal\jasf3">
+      <UniqueIdentifier>{f07c4a3a-7f50-4f00-9fb6-f489784a4ee3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="jcp\asym_key.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\cipher.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mac.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\provider.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\secret_key.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\security.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\openssl\openssl_provider.h">
+      <Filter>jcp\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\message_digest_algo.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\message_digest.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\internal\key_accessor.hpp">
+      <Filter>jcp\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mac_algo.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mbedcrypto\mbedcrypto_provider.hpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\algo_param_spec.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\buffer.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\cipher_algo.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\gcm_param_spec.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\key_agreement.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\key_agreement_algo.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\result.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\signature.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\signature_algo.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mbedcrypto\mbedcrypto_cipher_sym.hpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\random.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\secure_random.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mbedcrypto\mbedcrypto_cipher_asym.hpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mbedcrypto\mbedcrypto_securerandom.hpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mbedcrypto\mbedcrypto_ka_ecdh.hpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mbedcrypto\mbedcrypto_sign.hpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mbedcrypto\mbedcrypto_md.hpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\asym_key_impl.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\key_spec.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\pbe_key_spec.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\secret_key_spec.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\mbedcrypto\mbedcrypto_pbkdf2_skf.hpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\secret_key_factory.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="jcp\secret_key_factory_algo.hpp">
+      <Filter>jcp</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\asym_algorithm.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\chunk.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\data_algorithm.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\input_stream.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\invalid_file_exception.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\memstream.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\net_support_algorithm_exception.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\not_support_version_exception.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\operation_type.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\result.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\validate_failed_exception.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\user_chunk.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\io_exception.hpp">
+      <Filter>asymsecurefile</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\input_stream_delegate.hpp">
+      <Filter>asymsecurefile\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\output_stream_delegate.hpp">
+      <Filter>asymsecurefile\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\signature_header.hpp">
+      <Filter>asymsecurefile\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\version_router.hpp">
+      <Filter>asymsecurefile\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\algorithm_info.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\asym_algorithm_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\data_algorithm_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\data_iv_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\default_header_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\encrypted_seed_key_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\footer_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\jasf3_chunk_resolver.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\jasf3_chunk_type.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\jasf3_input_stream_delegate.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\jasf3_output_stream_delegate.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\raw_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\raw_user_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\reading_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\jasf3\seed_key_check_chunk.hpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClInclude>
+    <ClInclude Include="asymsecurefile\internal\byte_buffer.hpp">
+      <Filter>asymsecurefile\internal</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\cipher.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mac.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\provider.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\security.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mbedcrypto\mbedcrypto_provider.cpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\openssl\openssl_provider.cpp">
+      <Filter>jcp\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\internal\key_accessor.cpp">
+      <Filter>jcp\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\message_digest_algo.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\message_digest.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mac_algo.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\cipher_algo.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\key_agreement.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\key_agreement_algo.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\signature.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\signature_algo.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mbedcrypto\mbedcrypto_cipher_sym.cpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\secure_random.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mbedcrypto\mbedcrypto_cipher_asym.cpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mbedcrypto\mbedcrypto_securerandom.cpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mbedcrypto\mbedcrypto_ka_ecdh.cpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mbedcrypto\mbedcrypto_sign.cpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mbedcrypto\mbedcrypto_md.cpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\asym_key_impl.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\mbedcrypto\mbedcrypto_pbkdf2_skf.cpp">
+      <Filter>jcp\mbedcrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\secret_key_factory.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="jcp\secret_key_factory_algo.cpp">
+      <Filter>jcp</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\asym_algorithm.cpp">
+      <Filter>asymsecurefile</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\chunk.cpp">
+      <Filter>asymsecurefile</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\data_algorithm.cpp">
+      <Filter>asymsecurefile</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\input_stream.cpp">
+      <Filter>asymsecurefile</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\operation_type.cpp">
+      <Filter>asymsecurefile</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\internal\signature_header.cpp">
+      <Filter>asymsecurefile\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\internal\version_router.cpp">
+      <Filter>asymsecurefile\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\internal\jasf3\jasf3_chunk_resolver.cpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\internal\jasf3\jasf3_input_stream_delegate.cpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\internal\jasf3\jasf3_output_stream_delegate.cpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\internal\jasf3\reading_chunk.cpp">
+      <Filter>asymsecurefile\internal\jasf3</Filter>
+    </ClCompile>
+    <ClCompile Include="asymsecurefile\internal\byte_buffer.cpp">
+      <Filter>asymsecurefile\internal</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

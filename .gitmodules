@@ -1,0 +1,9 @@
+[submodule "signedsecurefile"]
+	path = signedsecurefile
+	url = https://github.com/jc-lab/signedsecurefile-cpp.git
+[submodule "asymsecurefile"]
+	path = asymsecurefile
+	url = https://github.com/jc-lab/asymsecurefile-cpp.git
+[submodule "jcp"]
+	path = jcp
+	url = https://github.com/jc-lab/jcp.git
